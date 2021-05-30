@@ -60,12 +60,12 @@ for ruv in (Ruv_1, Ruv_2, Ruv_3):
     if ruv > rkr_table[m][0]:
         print(f'\n Дисперсія неоднорідна! Змінимо m={N} to m={N + 1}\n')
         N += 1
-for rkr in range(len(rkr_table[m])):
-    if ruv < rkr_table[m][rkr]:
-        p = rkr
-temp = rkr_table[m][p]
-p2 = p_list[p]
-item_table = temp
+### for rkr in range(len(rkr_table[m])):
+###     if ruv < rkr_table[m][rkr]:
+###         p = rkr
+### temp = rkr_table[m][p]
+### p2 = p_list[p]
+### item_table = temp
 
 for i in range(3):
     matrix[i].append(randint(Y_min, Y_max))
